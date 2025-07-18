@@ -100,7 +100,7 @@ h2 {
 .welcomeText {
     margin-top: 10px;
     padding-left: 70px;
-    padding-right: 200px;
+    padding-right: 150px;
 }
 .footer {
     display: flex;
@@ -115,4 +115,116 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.CTABox {
+    margin-top: 40px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: white;font-family: monospace;
+    padding: 40px;
+    border-radius: 20px;
+}
+.CTALeft h3 {
+    font-family: monospace;
+}
+.CTALeft p {
+    font-family: monospace;
+    color: #e1e1e1;
+}
+.CTARight button {
+    color: white;
+    background-color: var(--secondary-color);
+    border: solid 3px white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all .5s;
+}
+.CTARight button:hover {
+    color: #e1e1e1;
+}
+
+.aboutText {
+    padding: 20px 150px 60px 0px
+}
+.aboutContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px;
+}
+.aboutSection {
+    flex: 1;
+    
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #769ce24b;
+}
+.aboutTitle {
+    font-size: 26px;
+}
+.aboutCaption {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: monospace;
+    color: #525252;
+}
+.aboutList {
+    font-family: monospace;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.projectTitle {
+    font-size: 24px;
+}
+.projectContainer {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 20px;
+}
+.projectSection {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.865);
+}
+.projectHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectCaption {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.projectTags {
+    margin-top: 5px;;
+    display: flex;
+    gap: 10px;
+}
+p.status, 
+p.tag, 
+p.source{
+    padding: 5px;
+    border-radius: 7px;
+    font-family: monospace;
+}
+p.tag{
+    background-color: #8f8f8f8b;
+}
+p.completed {
+    color: #3cc62aef;
+    background-color: #3cc62a50;
+    font-weight: bold;
+}
+p.source, 
+h5.projectDate {
+    color:#8f8f8ff3;
 }
