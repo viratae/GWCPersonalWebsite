@@ -186,9 +186,11 @@ body {
 .projectContainer {
     padding: 10px 20px 10px 20px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .projectSection {
+    width: 400px;
     background-color: var(--main-color);
     padding: 20px;
     border-radius: 15px;
